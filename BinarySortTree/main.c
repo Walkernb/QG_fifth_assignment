@@ -83,26 +83,6 @@ Status BST_postorderI(NodePtr root, void (*visit)(NodePtr))	//后序递归遍历
 
 int main()
 {
-    /*BinarySortTreePtr bt;
-    bt=BST_init(bt);
-    //printf("%d\n",bt->root->value);
-    bt=BST_insert(bt,10);
-    bt=BST_insert(bt,5);
-    bt=BST_insert(bt,16);
-    bt=BST_insert(bt,3);
-    bt=BST_insert(bt,1);
-    bt=BST_insert(bt,4);
-    bt=BST_insert(bt,8);
-    bt=BST_insert(bt,9);
-    bt=BST_insert(bt,6);
-    bt=BST_insert(bt,7);
-    bt=BST_insert(bt,13);
-    bt=BST_insert(bt,14);
-    bt=BST_insert(bt,20);
-    bt=BST_insert(bt,22);
-    bt=BST_insert(bt,18);
-    //printf("%d\n",bt->root->value);
-    BST_levelOrder(bt->root,visit);*/
     BinarySortTreePtr bt;
     bt=BST_init(bt);
     int p=1,i;
