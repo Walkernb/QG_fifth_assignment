@@ -1,5 +1,5 @@
 /**
-*   非递归后序遍历
+*   鍚庡簭闈為�掑綊鎺掑簭
 */
 
 #include<stdio.h>
@@ -31,7 +31,7 @@ typedef struct Stack{
     int n;
 }Stack;
 
-Status BST_postorderR(NodePtr root, void (*visit)(NodePtr))	//后序非递归遍历
+Status BST_postorderR(NodePtr root, void (*visit)(NodePtr))	//鍚庡簭闈為�掑綊鎺掑簭
 {
     Stack *s=(Stack *)malloc(sizeof(Stack));
     s->root[0]=NULL;
